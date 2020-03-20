@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Medium.woff2') format('woff2'),
+        url('../fonts/FiraSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0;
+}
+.wrapper {
+	width: 1024px;	
+	margin: 0 auto;	;
+	background-repeat: no-repeat;
+	background-position: 20px 0;
+}
+
+.header {}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+div.row a, 
+		nav {
+	display: inline-block;
+	
+}
+.row {}
+.button {}
+
+.navigation-logo {}
+ul.header__navigation-list li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.phone {
+	color: #510fad;
+}
+
+.phone:hover {
+	color: #737274;
+}
+
+.main {}
+
+.promo {
+	padding-left: 434px;
+	padding-top: 100px;
+}
+
+h1 {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.title {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	letter-spacing: 50;
+	line-height: 30px;
+}
+
+.about {}
+
+.about__title {}
+
+.about__head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.about__item {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	letter-spacing: 50;
+	line-height: 30px;
+}
+
+.about__image {}
+
+.about__description {}
+
+.about__list {}
+
+.button--about {}
+
+.animals {}
+
+.animals__head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.animals__list {}
+
+.animals__item-head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.animals__image img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+
+.animals__discriptions {}
+
+.button--animals {
+	color: #510fad;
+}
+
+.button--animals:hover {
+	color: #737274;
+}
+
+.reviews {}
+
+.reviews__head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.reviews__item {}
+
+.reviews__item-name {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.time {}
+
+.reviews__image {}
+
+.reviews__title {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: italic;
+	font-size: 16px;
+	letter-spacing: 50;
+	line-height: 30px;
+}
+
+.reviews__link {
+	color: #510fad;
+}
+
+.reviews__link:hover {
+	color: #737274;
+}
+
+.blog{
+	width: 940px;
+	display: inline-block;
+	background-repeat: repeat;
+}
+
+.blog__info {}
+
+.blog__description {}
+
+.blog__head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+
+.blog__description-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	letter-spacing: 50;
+	line-height: 30px;
+}
+
+.blog__social {}
+
+.sprite_social {
+	background-image: url(image/sprite_social.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.blog__post {}
+
+.blog__card {}
+
+.blog__item {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+.button--post {
+	color: #510fad;
+}
+.button--post:hover {
+	color: #737274;
+}
+.contacts {}
+.contacts__head {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	letter-spacing: 50;
+	line-height: 40px;
+}
+.contacts__info {}
+.contacts__list {}
+.contacts__list-name {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 50;
+	line-height: 30px;
+}
+address {
+	font-style: normal;
+}
+.contacts__link {}
+.footer {}
+.footer__navigation-list {}
+.footer__social {}
