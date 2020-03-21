@@ -62,7 +62,9 @@ body {
     align-items: center;
 }
 
-.navigation-logo {}
+.navigation-logo {
+	flex: 1;
+}
 
 .header__navigation-list {
    display: flex;
@@ -71,6 +73,7 @@ body {
 }
 
 .phone {
+	flex: 2;
 	color: #510fad;
 }
 
