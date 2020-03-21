@@ -64,7 +64,11 @@ body {
 
 .navigation-logo {}
 
-.header__navigation-list {}
+.header__navigation-list {
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+}
 
 .phone {
 	color: #510fad;
