@@ -45,14 +45,19 @@ body {
 }
 
 
-.header {}
+.header {
+	display: flex;
+}
 
 .container {
+	display: flex;
 	width: 940px;
 	margin: 0 auto;
 }
 
-.row {}
+.row {
+	display: flex;
+}
 
 .navigation-logo {}
 
