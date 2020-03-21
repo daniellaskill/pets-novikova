@@ -34,13 +34,16 @@ body {
 	line-height: 30px;
 	margin: 0;
 }
+
 .wrapper {
 	display: flex;
+	flex-direction: column;
 	width: 1024px;	
 	margin: 0 auto;	;
 	background-repeat: no-repeat;
 	background-position: 20px 0;
 }
+
 
 .header {}
 
