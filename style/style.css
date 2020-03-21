@@ -35,6 +35,7 @@ body {
 	margin: 0;
 }
 .wrapper {
+	display: flex;
 	width: 1024px;	
 	margin: 0 auto;	;
 	background-repeat: no-repeat;
@@ -47,19 +48,12 @@ body {
 	width: 940px;
 	margin: 0 auto;
 }
-div.row a, 
-		nav {
-	display: inline-block;
-	
-}
+
 .row {}
-.button {}
 
 .navigation-logo {}
-ul.header__navigation-list li{
-	display: inline-block;
-	padding: 10px;
-}
+
+.header__navigation-list {}
 
 .phone {
 	color: #510fad;
@@ -120,6 +114,8 @@ h1 {
 .about__description {}
 
 .about__list {}
+
+.button {}
 
 .button--about {}
 
@@ -259,6 +255,7 @@ h1 {
 	color: #737274;
 }
 .contacts {}
+
 .contacts__head {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -268,7 +265,9 @@ h1 {
 	line-height: 40px;
 }
 .contacts__info {}
+
 .contacts__list {}
+
 .contacts__list-name {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -282,6 +281,9 @@ address {
 	font-style: normal;
 }
 .contacts__link {}
+
 .footer {}
+
 .footer__navigation-list {}
+
 .footer__social {}
