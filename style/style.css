@@ -105,18 +105,21 @@ h1 {
 }
 .title {
 	font-family: "Roboto", sans-serif;
-	font-weight: normal;
-    font-style: normal;
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
 	text-transform: uppercase;
 }
-
-.about {}
-
-.about__title {}
-
+.about {
+	background-color: #510fad;
+	padding-top: 120px;
+}
+.about__title {
+	margin-left: 340px;
+	margin-bottom: 75px;
+	width: 370px;
+	min-height: 120px;
+}
 .about__head {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -124,8 +127,8 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 50;
 	line-height: 40px;
+	color: #fff;
 }
-
 .about__item {
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
@@ -133,17 +136,29 @@ h1 {
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
+	color: #b8adc8;
 }
 
-.about__image {}
+.about__image {
+
+}
 
 .about__description {}
 
-.about__list {}
+
+.about__list {
+	color: #fff;
+}
 
 .button {}
 
 .button--about {}
+
+
+
+
+
+
 
 .animals {}
 
