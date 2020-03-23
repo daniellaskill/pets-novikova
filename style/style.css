@@ -104,8 +104,9 @@ h1 {
 	line-height: 48px;
 }
 .title {
-	font-family: "Roboto", sans-serif;
-	font-size: 16px;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
 	letter-spacing: 50;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -163,6 +164,7 @@ h1 {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 50;
+	text-transform: uppercase;
 }
 .button--about {
 	color: #ffec00;
@@ -180,10 +182,17 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 50;
 	line-height: 40px;
+	margin-left: 320px;
 }
 
-.animals__list {}
-
+.animals__list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.animals__item {
+	width: 50%;
+}
 .animals__item-head {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -200,9 +209,19 @@ h1 {
 	border-radius: 50%;
 }
 
-.animals__discriptions {}
+.animals__discriptions {
+	margin-left: 10px;
+	margin-right: 20px;
+	padding: 0;
+	width: 300px;
+}
 
+.animals__discriptions p {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
 .button--animals {
+
 	color: #510fad;
 }
 
