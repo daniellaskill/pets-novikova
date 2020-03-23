@@ -139,7 +139,6 @@ h1 {
 	line-height: 30px;
 	color: #b8adc8;
 }
-
 .about__image {}
 .about__image img {
 	border-radius: 10px;
@@ -147,23 +146,30 @@ h1 {
 	box-shadow: -10px -10px 40px 0px #2d0861,
 				1px 0px 0px 0px #490e9d;
 }
-
-.about__description {}
-
-
+.about__description {
+	margin-left: 20px;
+}
 .about__list {
+	margin-bottom: 70px;
+	list-style: none;
+	list-style-type: disc;
+	padding-left: 20px;
 	color: #fff;
 }
-
-.button {}
-
-.button--about {}
-
-
-
-
-
-
+.about__list-item {}
+.button {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 50;
+}
+.button--about {
+	color: #ffec00;
+}
+.button--about:hover {
+	color: #b8adc8;
+}
 
 .animals {}
 
