@@ -113,6 +113,7 @@ h1 {
 .about {
 	background-color: #510fad;
 	padding-top: 120px;
+	padding-bottom: 120px;
 }
 .about__title {
 	margin-left: 340px;
@@ -139,8 +140,12 @@ h1 {
 	color: #b8adc8;
 }
 
-.about__image {
-
+.about__image {}
+.about__image img {
+	border-radius: 10px;
+	max-width: 470px;
+	box-shadow: -10px -10px 40px 0px #2d0861,
+				1px 0px 0px 0px #490e9d;
 }
 
 .about__description {}
@@ -182,9 +187,10 @@ h1 {
 	line-height: 40px;
 }
 
-.animals__image img{
+.animals__image {
 	width: 140px;
 	height: 140px;
+	overflow: hidden;
 	border-radius: 50%;
 }
 
