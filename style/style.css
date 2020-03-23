@@ -88,10 +88,14 @@ body {
 .main {}
 
 .promo {
-	padding-left: 434px;
-	padding-top: 100px;
+	width: 940px;
+	min-height: 560px;
+	padding-left: 380px;	
+	padding-top: 77px;
 }
-
+.promo__item {
+	width: 520px;
+}
 h1 {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -99,7 +103,6 @@ h1 {
 	font-size: 48px;
 	line-height: 48px;
 }
-
 .title {
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
@@ -107,6 +110,7 @@ h1 {
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
+	text-transform: uppercase;
 }
 
 .about {}
