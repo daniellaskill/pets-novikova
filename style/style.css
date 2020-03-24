@@ -90,6 +90,8 @@ body {
 .promo {
 	width: 940px;
 	min-height: 560px;
+}
+.promo__inner {
 	padding-left: 380px;	
 	padding-top: 77px;
 }
@@ -104,12 +106,15 @@ h1 {
 	line-height: 48px;
 }
 .title {
+	padding-left: 10px;
+	border-left: 3px solid #510fad;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	letter-spacing: 50;
 	line-height: 30px;
 	text-transform: uppercase;
+
 }
 .about {
 	background-color: #510fad;
@@ -194,7 +199,6 @@ h1 {
 	flex-wrap: wrap;
 }
 .animals__item {
-	width: 50%;
 }
 .animals__item-head {
 	margin-bottom: 10px;
@@ -215,7 +219,7 @@ h1 {
 
 .animals__discriptions {
 	margin-left: 20px;
-	margin-right: 10px;
+	margin-right: 20px;
 	padding: 0;
 	width: 300px;
 }
