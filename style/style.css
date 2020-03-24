@@ -182,7 +182,6 @@ h1 {
 }
 
 .animals {}
-
 .animals__head {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -190,15 +189,16 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 50;
 	line-height: 40px;
-	margin-left: 320px;
+	text-align: center;
 }
-
 .animals__list {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .animals__item {
+	margin-bottom: 40px;
 }
 .animals__item-head {
 	margin-bottom: 10px;
@@ -209,21 +209,17 @@ h1 {
 	letter-spacing: 50;
 	line-height: 40px;
 }
-
 .animals__image {
 	width: 140px;
 	height: 140px;
 	overflow: hidden;
 	border-radius: 50%;
 }
-
 .animals__discriptions {
 	margin-left: 20px;
-	margin-right: 20px;
 	padding: 0;
 	width: 300px;
 }
-
 .animals__discriptions p {
 	margin-top: 0;
 	margin-bottom: 40px;
@@ -232,7 +228,6 @@ h1 {
 	text-transform: uppercase;
 	color: #510fad;
 }
-
 .button--animals:hover {
 	color: #737274;
 }
