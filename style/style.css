@@ -146,15 +146,15 @@ h1 {
 	max-width: 470px;
 	box-shadow: -10px -10px 40px 0px #2d0861,
 				1px 0px 0px 0px #490e9d;
+	flex-grow: 1;
 }
 .about__description {
-	margin-left: 20px;
+	display: flex;
+	flex-grow: 1;
 }
 .about__list {
-	margin-bottom: 70px;
 	list-style: none;
 	list-style-type: disc;
-	padding-left: 20px;
 	color: #fff;
 }
 .about__list-item {}
@@ -164,7 +164,6 @@ h1 {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 50;
-	text-transform: uppercase;
 }
 .button--about {
 	color: #ffec00;
@@ -194,6 +193,7 @@ h1 {
 	width: 50%;
 }
 .animals__item-head {
+	margin-bottom: 10px;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -210,8 +210,8 @@ h1 {
 }
 
 .animals__discriptions {
-	margin-left: 10px;
-	margin-right: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
 	padding: 0;
 	width: 300px;
 }
@@ -221,7 +221,7 @@ h1 {
 	margin-bottom: 40px;
 }
 .button--animals {
-
+	text-transform: uppercase;
 	color: #510fad;
 }
 
