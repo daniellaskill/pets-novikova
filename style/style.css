@@ -394,10 +394,7 @@ time {
 	color: #737274;
 }
 
-
-
 .contacts {}
-
 .contacts__head {
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -414,12 +411,10 @@ time {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
 .contacts__list {
 	margin-bottom: 40px;
 	width: 48%;
 }
-
 .contacts__list-name {
 	margin: 0;
 	font-family: "Fira Sans", sans-serif;
@@ -434,7 +429,9 @@ time {
 address {
 	font-style: normal;
 }
-.contacts__link {}
+.contacts__link:hover {
+	color: #510fad;	
+}
 
 .footer {}
 
