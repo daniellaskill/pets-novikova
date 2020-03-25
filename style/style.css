@@ -433,8 +433,35 @@ address {
 	color: #510fad;	
 }
 
-.footer {}
-
-.footer__navigation-list {}
-
-.footer__social {}
+.footer {
+	border-top: 1px solid #b8adc8;
+}
+.footer__navigation {
+	display: flex;
+}
+.footer__navigation-inner {
+	display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0;
+}
+.footer__navigation-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer__navigation-item {
+ 	padding-right: 30px;
+}
+.footer__navigation-link {
+	color: #b8adc8;
+}
+.footer__navigation-link:hover {
+	color: #510fad;	
+}
+.footer__social {
+	display: flex;
+	align-items: center;
+}
