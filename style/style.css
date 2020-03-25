@@ -304,17 +304,16 @@ time {
 .blog{
 	background-repeat: repeat;
 }
-
+.blog__inner {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
 .blog__info {
 	display: flex;
 	align-items: center;
 	max-width: 50%;
 }
-
-.blog__description {
-	
-}
-
+.blog__description {}
 .blog__head {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
@@ -324,7 +323,6 @@ time {
 	line-height: 40px;
 	color: #fff;
 }
-
 .blog__description-item {
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
@@ -334,35 +332,25 @@ time {
 	line-height: 30px;
 	color: #b8adc8;
 }
-
 .blog__social {}
-
-.sprite_social {
-	background-image: url(image/sprite_social.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
+.sprite_social {}
 .blog__post {
 	display: flex;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
 	width: 50%;
 }
-
 .blog__card {
-	width: 45%;
+	flex-shrink: 0;
 	background-color: #fff;
 }
-
 .blog__item {
-	font-family: "Fira Sans", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 24px;
-	letter-spacing: 50;
-	line-height: 40px;
+}
+.blog__item-inner {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #202020;
 }
 .button--post {
 	color: #510fad;
