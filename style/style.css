@@ -86,7 +86,9 @@ body {
 }
 
 .main {}
-
+section {
+	margin: 40px 0;
+}
 .promo {
 	min-height: 560px;
 }
@@ -233,6 +235,8 @@ h1 {
 
 .reviews {}
 .reviews__head {
+	margin-top: 0;
+	margin-bottom: 20px;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -243,6 +247,10 @@ h1 {
 }
 .reviews__item {
 	max-width: 50%;
+	background-repeat: no-repeat;
+	background-position: 10px 0px;
+	background-size: 75px;
+	padding-top: 65px;
 }
 .reviews__item-name {
 	font-family: "Fira Sans", sans-serif;
@@ -254,6 +262,8 @@ h1 {
 	margin: 0;
 }
 time {
+	display: block;
+	margin-bottom: 10px;
     font-style: italic;
 	color: #b8adc8;
 }
@@ -262,7 +272,11 @@ time {
 	margin-left: 0;
 	margin: 0 24px 0 0;
 }
+.reviews__item-message p {
+	margin: 0;
+}
 .reviews__image {
+	margin-top: 50px;
 	flex-basis: 50%;
 }
 .reviews__image img {
@@ -270,15 +284,16 @@ time {
 	max-width: 100%;
 	box-shadow: -10px -10px 30px 2px #c4c1b9;
 }
-
 .reviews__title {
+	margin-left: 470px;
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
     font-style: italic;
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
-	
+	color: #b8adc8;
+}	
 .reviews__link {
 	color: #510fad;
 }
@@ -286,25 +301,15 @@ time {
 	color: #737274;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .blog{
 	width: 940px;
-	display: inline-block;
 	background-repeat: repeat;
 }
 
-.blog__info {}
+.blog__info {
+	/*display: flex;*/
+	width: 40%;
+}
 
 .blog__description {}
 
@@ -334,9 +339,16 @@ time {
     display: block;
 }
 
-.blog__post {}
+.blog__post {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+}
 
-.blog__card {}
+.blog__card {
+	width: 45%;
+}
 
 .blog__item {
 	font-family: "Fira Sans", sans-serif;
@@ -352,6 +364,15 @@ time {
 .button--post:hover {
 	color: #737274;
 }
+
+
+
+
+
+
+
+
+
 .contacts {}
 
 .contacts__head {
