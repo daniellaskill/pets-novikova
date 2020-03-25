@@ -28,6 +28,7 @@
 
 a {
 	text-decoration: none;
+	color: #202020;
 }
 
 body {
@@ -87,7 +88,7 @@ body {
 
 .main {}
 section {
-	margin: 40px 0;
+	margin: 80px 0;
 }
 .promo {
 	min-height: 560px;
@@ -395,15 +396,11 @@ time {
 
 
 
-
-
-
-
-
-
 .contacts {}
 
 .contacts__head {
+	margin-top: 0;
+	margin-bottom: 20px;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -411,11 +408,20 @@ time {
 	letter-spacing: 50;
 	line-height: 40px;
 }
-.contacts__info {}
+.contacts__info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
-.contacts__list {}
+.contacts__list {
+	margin-bottom: 40px;
+	width: 48%;
+}
 
 .contacts__list-name {
+	margin: 0;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -423,6 +429,7 @@ time {
 	font-size: 14px;
 	letter-spacing: 50;
 	line-height: 30px;
+	color: #b8adc8;
 }
 address {
 	font-style: normal;
