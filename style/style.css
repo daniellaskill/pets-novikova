@@ -302,16 +302,18 @@ time {
 }
 
 .blog{
-	width: 940px;
 	background-repeat: repeat;
 }
 
 .blog__info {
-	/*display: flex;*/
-	width: 40%;
+	display: flex;
+	align-items: center;
+	max-width: 50%;
 }
 
-.blog__description {}
+.blog__description {
+	
+}
 
 .blog__head {
 	font-family: "Fira Sans", sans-serif;
@@ -320,15 +322,17 @@ time {
 	font-size: 36px;
 	letter-spacing: 50;
 	line-height: 40px;
+	color: #fff;
 }
 
-.blog__description-title {
+.blog__description-item {
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
     font-style: normal;
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
+	color: #b8adc8;
 }
 
 .blog__social {}
@@ -341,6 +345,7 @@ time {
 
 .blog__post {
 	display: flex;
+	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 50%;
@@ -348,6 +353,7 @@ time {
 
 .blog__card {
 	width: 45%;
+	background-color: #fff;
 }
 
 .blog__item {
