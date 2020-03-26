@@ -118,10 +118,29 @@ h1 {
 	text-transform: uppercase;
 }
 .about {
+	/*position: relative;*/
 	background-color: #510fad;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
+/*.about__img {
+	position: absolute;
+	background-image: url(../images/bg_about.svg);
+}
+.about__img:before {
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: -80px;
+	background-position: 0 0;
+}
+.about__img:after {
+	height: 100%;
+	left: 0;
+	right: 0;
+	bottom: -80px;
+	background-position: 0 0;
+}*/
 .about__title {
 	margin: 0 auto 75px;
 	width: 360px;
@@ -176,7 +195,6 @@ h1 {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 50;
-	
 }
 .arrow {
 	position: absolute;
