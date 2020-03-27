@@ -327,7 +327,7 @@ time {
 	display: block;
 	margin-bottom: 10px;
     font-style: italic;
-	color: #b8adc8;
+	color: #737274;
 }
 .reviews__item-message {
 	margin-right: 20px;
@@ -354,7 +354,7 @@ time {
 	font-size: 16px;
 	letter-spacing: 50;
 	line-height: 30px;
-	color: #b8adc8;
+	color: #737274;
 }	
 .reviews__link {
 	color: #510fad;
@@ -364,7 +364,6 @@ time {
 }
 
 .blog{
-	padding: 80px 0;
 	background-image: url(../images/bg.blog.png);
 	background-repeat: repeat;
 }
@@ -517,7 +516,7 @@ time {
 	font-size: 14px;
 	letter-spacing: 50;
 	line-height: 30px;
-	color: #b8adc8;
+	color: #737274;
 }
 address {
 	font-style: normal;
@@ -527,7 +526,7 @@ address {
 }
 
 .footer {
-	border-top: 1px solid #b8adc8;
+	border-top: 1px solid #737274;
 	width: 940px;
 	margin: 0 auto;
 }
@@ -551,7 +550,7 @@ address {
  	padding-right: 30px;
 }
 .footer__navigation-link {
-	color: #b8adc8;
+	color: #737274;
 }
 .footer__navigation-link:hover {
 	color: #510fad;	
